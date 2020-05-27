@@ -47,7 +47,7 @@ class MenusTableSeeder extends Seeder
                 'name' => '仪表盘',
                 'route' => 'home',
                 'icon' => 'tachometer-alt',
-                'order' => 3,
+                'order' => -999,
             ],
             [
                 'slug' => 'menu-manage',
