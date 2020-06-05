@@ -81,7 +81,7 @@ $(function () {
             modal.find('.modal-title').text(title);
             modal.find('.modal-body').load(href, {
                 action: href,
-                accept: ''
+                accept: '.xlx,.xlsx,.csv'
             });
         }).on('click', '#btn-confirmed', function () {
             $('#import-form').submit();
